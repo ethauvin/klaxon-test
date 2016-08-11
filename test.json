@@ -1,0 +1,62 @@
+{
+  "config": {
+    "name": "DKS 1802-EPD",
+    "star": "*",
+    "opts": [
+      {
+        "title": "Delete 4-Digit Entry Code",
+        "fields": [
+          {
+            "hint": "Entry code",
+            "alpha": false,
+            "size": 4
+          }
+        ],
+        "cmd": "*14[MASTER],[FIELD:1]*"
+      },
+      {
+        "title": "Add 4-Digit Entry Code",
+        "fields": [
+          {
+            "hint": "Entry Code",
+            "alpha": false,
+            "size": 4
+          }
+        ],
+        "cmd": "*02[MASTER],[FIELD:1]*"
+      },
+      {
+        "title": "Add Name",
+        "fields": [
+          {
+            "hint": "Directory Code",
+            "alpha": false,
+            "size": 3
+          },
+          {
+            "hint": "Name",
+            "alpha": true,
+            "size": 11
+          }
+        ],
+        "cmd": "*66[MASTER],[FIELD:1]*,[FIELD:2]*"
+      },
+      {
+        "title": "Add 7-digit Phone Number",
+        "fields": [
+          {
+            "hint": "Directory Code",
+            "alpha": false,
+            "size": 3
+          },
+          {
+            "hint": "Phone Number",
+            "alpha": true,
+            "size": 7
+          }
+        ],
+        "cmd": "*01[MASTER],[FIELD:1]*,[FIELD:2]*"
+      }
+    ]
+  }
+}
