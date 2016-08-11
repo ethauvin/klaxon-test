@@ -8,7 +8,7 @@ val repos = repos()
 
 val p = project {
 
-    name = "kalxon-test"
+    name = "klaxon-test"
     group = "com.example"
     artifactId = name
     version = "0.1"
@@ -22,7 +22,7 @@ val p = project {
     }
 
     dependencies {
-        compile("com.beust:klaxon:")
+        compile("com.beust:klaxon:0.26")
     }
 
     dependenciesTest {
