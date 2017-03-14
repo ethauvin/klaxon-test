@@ -4,8 +4,8 @@
 **/.idea/tasks.xml
 **/.idea/workspace.xml
 *.iws
-.DS_Store
 .classpath
+.DS_Store
 .gradle
 .kobalt
 .nb-gradle
@@ -23,7 +23,7 @@
 /project.properties
 /target
 /test-output
-Thumbs.db
 ehthumbs.db
 kobaltBuild
 local.properties
+Thumbs.db

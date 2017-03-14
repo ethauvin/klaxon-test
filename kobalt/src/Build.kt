@@ -3,9 +3,6 @@ import com.beust.kobalt.plugin.packaging.*
 import com.beust.kobalt.plugin.application.*
 import com.beust.kobalt.plugin.kotlin.*
 
-val repos = repos()
-
-
 val p = project {
 
     name = "klaxon-test"
@@ -22,7 +19,7 @@ val p = project {
     }
 
     dependencies {
-        compile("com.beust:klaxon:0.26")
+        compile("com.beust:klaxon:")
     }
 
     dependenciesTest {
